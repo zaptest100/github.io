@@ -1,0 +1,335 @@
+body {
+    font: 100%/1.5em 'Roboto', Arial, Geneva, sans-serif !important;
+    margin: 0;
+    padding: 0;
+    -ms-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: top left;
+    background-color: #42420c;
+    overflow: hidden;
+}
+
+.bg {
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    /*-webkit-filter: blur(2px);*/
+    /*-moz-filter: blur(2px);*/
+    /*-o-filter: blur(2px);*/
+    /*-ms-filter: blur(2px);*/
+    /*filter: blur(2px);*/
+    height: 1080px;
+    width: 1920px;
+    margin: -1px;
+}
+
+#container {
+    height: 1080px;
+    width: 1920px;
+    position: absolute;
+    top: 0px;
+}
+
+.control {
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.logo {
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.date-strip {
+    width: 100%;
+    height: 240px;
+    margin-top: -60px;
+}
+
+#dates {
+    position: relative;
+    top: 30px;
+    left: 382px;
+    width: 1150px;
+    text-align: center;
+}
+
+.date {
+    width: 60px;
+    height: 60px;
+    border: solid 1px transparent;
+    margin: 10px 0px;
+    border-radius: 999px;
+    display: inline-block;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.80);
+}
+
+.f {
+    color: rgba(255, 178, 178, 0.89);
+}
+
+.date:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.90);
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+.month {
+    font-weight: 300;
+    font-size: 1em;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+.dateOfMonth {
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-left: 0;
+}
+
+.teams {
+    width: 500px;
+    position: absolute;
+    top: 310px;
+}
+
+.right {
+    right: 0px;
+}
+
+.pool-header {
+    height: 40px;
+    font-weight: 500;
+    font-size: 1.8em;
+    padding-top: 16px;
+    color: white;
+    text-align: center;
+}
+
+.pool-A {
+    background-color: rgb(36, 101, 36);
+}
+
+.pool-B {
+    background-color: rgb(0, 119, 128);
+}
+
+.team {
+    font-size: 1.8em;
+    font-weight: 300;
+    padding: 18px 10px 10px 10px;
+    height: 33px;
+    color: rgba(255, 255, 255, 0.56);
+    cursor: pointer;
+    margin-bottom: 3px;
+}
+
+.team:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.90);
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+.team-name {
+
+}
+
+#venues {
+    position: absolute;
+    top: 890px;
+    left: 0px;
+    width: 101%;
+    margin-left: -3px;
+}
+
+.venue {
+    font-weight: 300;
+    padding: 10px;
+    height: 50px;
+    color: rgba(255, 255, 255, 0.56);
+    cursor: pointer;
+    display: inline-block;
+}
+
+.venue:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.90);
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+.stadium {
+    font-size: 1.5em;
+}
+
+.city {
+  font-size: 1em;
+}
+
+.central {
+    border-radius: 999px;
+    height: 505px;
+    width: 800px;
+    position: absolute;
+    top: 310px;
+    left: 560px;
+    padding-top: 0px;
+    background-color: rgba(0, 0, 0, 0.65) !important;
+}
+
+.match {
+    font-size: 1.8em;
+    font-weight: 300;
+    padding: 18px 10px 10px 0px;
+    height: 50px;
+    color: rgba(255, 255, 255, 0.56);
+    margin-bottom: 3px;
+    width: 780px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.team-flag {
+    height: 40px;
+    margin-bottom: 0px ;
+}
+
+.team-shortname {
+    font-size: 0.8em;
+}
+
+.team-box {
+    display: inline-block;
+    margin: 5px 20px;
+    width: 150px;
+}
+
+.left-marker {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin-left: -70px;
+    margin-right: 0px;
+    margin-bottom: -37px;
+    border-radius: 999px;
+}
+
+.right-marker {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: -50px;
+    margin-bottom: 26px;
+    margin-top: -70px;
+    border-radius: 999px;
+}
+
+.match-details {
+    display: inline-block;
+    width: 200px;
+    position: relative;
+    top: -20px;
+}
+
+.DN {
+    display: inline-block;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 0.6em;
+}
+
+.D {
+    display: none;
+}
+
+.match-month {
+    font-size: 0.6em;
+    display: inline-block;
+}
+
+.match-time.local {
+    font-size: 0.8em;
+    display: inline-block;
+}
+
+.match-venue {
+    font-size: 0.8em;
+}
+
+.match-date {
+    font-size: 0.6em;
+}
+
+.selected {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: rgba(255, 255, 255, 0.90);
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+footer {
+    color: rgba(255, 255, 255, 0.56);
+    font-size: 1.2em;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    width: 100%;
+}
+
+.footer-right {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+
+.flag.sprite-AFG{ background-position: 0 0; width: 80px; height: 40px; }
+.flag.sprite-AUS{ background-position: 0 -90px; width: 80px; height: 40px; }
+.flag.sprite-BAN{ background-position: 0 -180px; width: 80px; height: 40px; }
+.flag.sprite-CAN{ background-position: 0 -270px; width: 80px; height: 40px; }
+.flag.sprite-ENG{ background-position: 0 -360px; width: 80px; height: 40px; }
+.flag.sprite-IND{ background-position: 0 -450px; width: 80px; height: 40px; }
+.flag.sprite-IRE{ background-position: 0 -540px; width: 80px; height: 40px; }
+.flag.sprite-NZ{ background-position: 0 -630px; width: 80px; height: 40px; }
+.flag.sprite-PAK{ background-position: 0 -720px; width: 80px; height: 40px; }
+.flag.sprite-SA{ background-position: 0 -810px; width: 80px; height: 40px; }
+.flag.sprite-SCO{ background-position: 0 -900px; width: 80px; height: 40px; }
+.flag.sprite-SRI{ background-position: 0 -990px; width: 80px; height: 40px; }
+.flag.sprite-TBD{ background-position: 0 -1080px; width: 80px; height: 40px; }
+.flag.sprite-UAE{ background-position: 0 -1170px; width: 80px; height: 40px; }
+.flag.sprite-WI{ background-position: 0 -1260px; width: 80px; height: 40px; }
+.flag.sprite-ZIM{ background-position: 0 -1350px; width: 80px; height: 40px; }
+
+.flag {
+    background: url(images/flags_sprite.png) no-repeat top left;
+}
+
+.footer-right a {
+    color: rgba(255, 255, 255, 0.56);
+}
+
+a:hover {
+    color: white;
+}
+
+#twitter-widget-0 {
+    margin-bottom: -6px;
+    margin-left: 20px;
+}
+
+.social {
+    width: 252px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -18px;
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    transform-origin: bottom left;
+    -ms-transform-origin: bottom left;
+    -webkit-transform-origin: bottom left;
+    -moz-transform-origin: bottom left;
+    -webkit-transform-origin: bottom left;
+}
